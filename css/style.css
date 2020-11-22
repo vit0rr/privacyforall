@@ -39,6 +39,7 @@ html {
     color: white;
 }
 
+
 .card-body {
     background: #30475e;
 }
@@ -147,6 +148,14 @@ html {
     color: white;
 }
 
+#print-adguard {
+    text-align: center;
+}
+
+#dns {
+    text-decoration: underline;
+}
+
 #home {
     padding-top: 80px;
 }
@@ -225,11 +234,27 @@ html {
     font-weight: bold;
 }
 
+#img-home {
+    margin: 10px 0px 0px 10px;
+}
+
+#title-pratica {
+    padding-top: 20px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
     #amazon-atlas, #russiaSpy, #ciaTools {
-        width: 140px !important;
+        width: 140px;
+    }
+
+    #img-home {
+        width: 0px;
+    }
+
+    #print-adguard1 {
+        width: 410px !important;
     }
 
     .title-center-small {
@@ -249,6 +274,14 @@ html {
         width: 200px;
     }
 
+    #img-home {
+        width: 0px;
+    }
+
+    #print-adguard1 {
+        width: 530px !important;
+    }
+
     .title-small {
         text-align: center !important;
         margin-bottom: 20px;
@@ -261,7 +294,13 @@ html {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    
+    #img-home {
+        width: 330px;
+    }
+
+    #print-adguard1 {
+        width: 700px !important;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
