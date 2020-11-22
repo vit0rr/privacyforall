@@ -1,2 +1,4 @@
-# privacyforall
-Projeto Privacy for All é desenvolvido para informar e dar opções de privacidade para combater a espionagem massiva cometida hoje por instituições governamentais e empresas de forma acessiva para qualquer usuário. 
+# Privacy For All
+Privacy For All é um projeto brasileiro sem fins lucrativos que visa melhorar o ambiente online com mais privacidade. Isso é feito explicando e apresentando soluções de privacidade de forma simples e objetiva, para que de fato seja Para Todos.
+
+Link: https://vit0rr.github.io/privacyforall/
