@@ -35,6 +35,10 @@ html {
     padding-left: 1.25rem;
 }
 
+.description-title {
+    font-weight: normal;
+}
+
 .card-title {
     color: white;
 }
@@ -177,6 +181,7 @@ html {
     font-size: 20px;
 }
 
+
 #democracia-title {
     text-decoration: underline;
 }
@@ -223,6 +228,15 @@ html {
     padding: 60px;
 }
 
+.second-title {
+    color: white !important;
+}
+
+.second-title:hover {
+    text-decoration: none;
+    color: #e94560 !important;
+    transition: 0.2s !important;
+}
 
 #contato {
     text-align: center;
@@ -253,6 +267,10 @@ html {
         width: 0px;
     }
 
+    .img-auth{
+        width: 0px !important;
+    }
+
     #print-adguard1 {
         width: 410px !important;
     }
@@ -272,6 +290,10 @@ html {
 
     #amazon-atlas, #russiaSpy {
         width: 200px;
+    }
+
+    .img-auth{
+        width: 0px !important;
     }
 
     #img-home {
@@ -297,6 +319,8 @@ html {
     #img-home {
         width: 330px;
     }
+
+    
 
     #print-adguard1 {
         width: 700px !important;
