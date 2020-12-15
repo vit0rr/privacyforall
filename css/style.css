@@ -93,6 +93,18 @@ html {
     width: 0;
 }
 
+.indice {
+    font-size: 20px;
+}
+
+.cont {
+    padding-left: 15px;
+}
+
+.cont-t {
+    padding-left: 25px;
+}
+
 .nav-link:hover:after {
     width: 100%; 
     left: 0;
