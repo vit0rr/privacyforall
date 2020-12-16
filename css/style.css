@@ -297,14 +297,16 @@ html {
         width: 410px !important;
     }
 
-    .title-center-small {
-        text-align: center !important;
-    }
+    .mx-auto-card {
+        margin-right: auto !important;
+        margin-left: auto !important;
+       }
 
     .title-small {
         text-align: center !important;
         margin-bottom: 20px;
     }
+    
  }
 
 /* Small devices (landscape phones, 576px and up) */ 
@@ -334,6 +336,13 @@ html {
     .title-center-small {
         text-align: center !important;
     }
+
+    .mx-auto-card {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-inline: 10px;
+        background: #1b262c;
+       }
  }
 
 /* Medium devices (tablets, 768px and up) */
