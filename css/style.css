@@ -23,6 +23,17 @@ html {
     text-align: center;
 }
 
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background: rgba(44, 42, 42, 0.8);;
+    border-radius: .25rem;
+}
 .paragrafo {
     margin-left: 20px;
 }
@@ -192,7 +203,6 @@ html {
     text-align: center;
     font-size: 20px;
 }
-
 
 #democracia-title {
     text-decoration: underline;
