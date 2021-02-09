@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/fontawesome.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../js/fontawesome.js"></script>
+    <link rel="shortcut icon" href="../../img/favicon.svg" type="image/x-icon">
+    <title>Privacy For All - Provedores de e-mail</title>
+</head>
+
+<body>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/script.min.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
+            <div class="container">
+                <span id="nav-title"><a href="../../index.html" class="a-nav-title">Privacy For All</a></span>
+            </div>
+        </nav>
+    </header>
+    <br> <br> <br>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../pratica/categorias.html">Prática</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Provedores de VPN</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="container">
+        <h2>VPNs melhoram sua segurança?</h2>
+        <p>
+            Não. Um discurso utilizado por diversas VPNs, e vou dar de exemplo a mais famosa NordVPN, é que um dos lemas
+            de seu serviço é aumentar sua segurança online. Eles fazem isso oferecendo um túnel criptografado onde
+            ninguém pode ler as informações ali trafegadas. Isso não está necessariamente errado, de fato ocorre. Mas a
+            pergunta que deve ser feita é "eu realmente preciso disso?" E provavelmente não. Essa tal conexão segura já
+            é mundialmente utilizada. O HTTPS está incluso na grande maioria dos sites na internet e em aplicativos.
+            Desde 2016 foi implementado nos iPhones e desde 2018 nos Androids, então não, você provavelmente não precisa
+            de VPN para melhorar sua segurança online.
+        </p>
+        <p>
+            Outro argumento utilizado para defender o uso de VPNs, é em locais públicos. Isso também não faz muito
+            sentido, pois se a conexão que você usa (e provavelmente é) for HTTPS, independente da rede que estiver,
+            nenhum hacker com ataque man-in-the-middle vai conseguir ler em texto plano seu e-mail e senha. O uso efeito
+            justificado, voltado para segurança, seria caso estivesse acessando um serviço HTTP, ou seja, que NÃO seja
+            HTTPS. Porém uma forma muito mais decente de contornar isso, é usando a extensão <a
+                href="https://www.eff.org/pt-br/https-everywhere" target="_blank" rel="noopener noreferrer">HTTPS
+                Everywhere</a>.
+        </p>
+        <br>
+        <h2>VPNs aumentam sua privacidade?</h2>
+        <p>Não. Grande parte das VPNs tem essa afirmação de "para privacidade" completamente refutada apenas com seus
+            termos de contrato. Em suma, a propaganda feita para VPN as vezes está atrelada com seu ISP saber suas
+            atividades online. Isso não está completamente errado, de fato, o seu ISP sabe os sites que você navega, mas
+            caso use isso para justificar instalar uma VPN, você apenas passa essas informações que antes eram do
+            provedor de internet, para o seu serviço de VPN. A forma correta de não enviar essas informações para o seu
+            provedor de internet, é tendo um DNS self-hosted. Também é contraditório, visto que as grandes empresas de
+            VPN armazenam algum tipo de log seu, seja com metadados, logs de acesso e qualquer coisa do tipo.</p>
+        <h2>"Mas a minha VPN não registra logs"</h2>
+        <p>Não tem como provar isso. E de qualquer forma, um provedor mal-intencionado também diria isso. Outro ponto, é
+            que, em casos legais, não tem motivos para uma VPN se responsabilizar pelo seu mal uso do produto. Dessa
+            forma, eles coletam informações suficientes suam que possam contribuir para uma possível investigação
+            policial. E óbvio, como você se conecta nesse servidor, o seu IP real ainda está nos servidores da VPN,
+            mesmo que o site que você acesse usando-o não saiba.</p>
+        <br>
+        <h2>Conclusão</h2>
+        <p>Em suma, VPN's não passam de um proxy gourmetizado. Não oferecem mais privacidade nem mais segurança. Em
+            grande parte das ocasiões também apenas prejudicam sua privacidade.</p>
+
+        <h1>Alternativas</h1><br> <br>
+        <div class="row">
+            <div class="col">
+                <img src="../../img/tor.svg" alt="tor-project" width="200px">
+            </div>
+            <div class="col-9">
+                <p>
+                    Com Tor, você consegue manter sua privacidade e anonimato sem deixar logs ou depender de alguma
+                    coorporação que dependem de seus dados ou pagamento para sobreviver. Você pode baixar ele <a
+                        href="https://www.torproject.org/" target="_blank" rel="noopener noreferrer">aqui</a>.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <img src="../../img/vpn.svg" alt="own-vpn" width="200px">
+            </div>
+            <div class="col-9">
+                <p>
+                    Criando sua própria VPN, você consegue aproveitar de todos seus pontos positivos e eliminar os
+                    pontos
+                    negativos.
+                    Links úteis: <br>
+                <ul style="font-size: 20px;">
+                    <li><a href="https://techcrunch.com/2017/04/09/how-i-made-my-own-vpn-server-in-15-minutes/"
+                            target="_blank" rel="noopener noreferrer">How i made my own VPN server in 15 minutes</a>
+                    </li>
+                    <li><a href="https://notthebe.ee/Creating-your-own-OpenVPN-server.html" target="_blank"
+                            rel="noopener noreferrer">Setting up on an OpenVPN server from scratch on Ubuntu 20.04</a>
+                    </li>
+                </ul>
+                <p>
+                    Esses artigos foram os melhores que achei, porém ambos contém links/fontes/scrips tercerizados...
+                    Entao
+                    acesse bloqueando tudo ou usando um navegador via CLI.
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="rodape">
+        <div class="container">
+            <div id="rodape-title">
+                <h4>Privacy For All</h4>
+            </div>
+            <div id="rodape-icons">
+                <a href="https://twitter.com/vit0rrk" target="_blank" rel="noopener noreferrer"><img
+                        src="../../img/twitter.svg" alt="twitter" width="40px"></a>
+                <a href="https://github.com/vit0rr" target="_blank" rel="noopener noreferrer"><img
+                        src="../../img/github.svg" alt="github" width="40px"></a>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
