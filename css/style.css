@@ -11,6 +11,37 @@ p {
     font-family: Ubuntu-Medium;
     src: url(UbuntuFonts/Ubuntu-Medium.ttf);
 }
+
+@font-face {
+    font-family: "SFProDisplayThin";
+    src: url(./SFProDisplay/SFProDisplay-Thin.woff) format("woff"),
+         url(./SFProDisplay/SFProDisplay-Thin.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SFProDisplayMedium";
+    src: url(./SFProDisplay/SFProDisplay-Medium.woff) format("woff"),
+         url(./SFProDisplay/SFProDisplay-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SFProDisplayLight";
+    src: url(./SFProDisplay/SFProDisplay-Light.woff) format("woff"),
+         url(./SFProDisplay/SFProDisplay-Light.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SFProDisplayRegular";
+    src: url(./SFProDisplay/SFProDisplay-Regular.woff) format("woff"),
+         url(./SFProDisplay/SFProDisplay-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SFProDisplayBold";
+    src: url(./SFProDisplay/SFProDisplay-Bold.woff) format("woff"),
+         url(./SFProDisplay/SFProDisplay-Bold.woff2) format("woff2");
+}
+
 h1,
 h2,
 h3,
@@ -131,11 +162,12 @@ html {
     font-size: 20px;
 }
 .nav-link {
-    font-family: Ubuntu-Medium, sans-serif !important;
+    font-family: SFProDisplayBold;
 }
 .a-nav-title {
     color: #fff;
     text-decoration: none !important;
+    font-family: sans-serif;
 }
 .a-nav-title:hover {
     color: #e94560;
@@ -144,14 +176,20 @@ html {
 .bold {
     font-weight: 700;
 }
+
+#main-title {
+    font-family: SFProDisplayThin;
+}
+
 #leiaMais-itens {
     font-size: 18px;
 }
 #nav-title {
-    font-family: Ubuntu-Medium, sans-serif;
+    font-family: S;
     font-size: 25px;
     color: #fff;
 }
+
 #print-adguard {
     text-align: center;
 }
