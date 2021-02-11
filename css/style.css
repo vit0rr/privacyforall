@@ -162,7 +162,7 @@ html {
     font-size: 20px;
 }
 .nav-link {
-    font-family: SFProDisplayBold;
+    font-family: SFProDisplayBold, Arial, Helvetica, sans-serif;
 }
 .a-nav-title {
     color: #fff;
@@ -178,7 +178,7 @@ html {
 }
 
 #main-title {
-    font-family: SFProDisplayThin;
+    font-family: SFProDisplayThin, Arial, Helvetica, sans-serif;
 }
 
 #leiaMais-itens {
