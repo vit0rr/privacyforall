@@ -177,6 +177,7 @@ html {
     font-weight: 700;
 }
 
+
 #main-title {
     font-family: SFProDisplayThin, Arial, Helvetica, sans-serif;
 }
@@ -334,6 +335,10 @@ html {
         text-align: center !important;
         margin-bottom: 20px;
     }
+
+    .card-deck-mobile {
+        width: 20rem;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     #amazon-atlas,
@@ -361,6 +366,10 @@ html {
         margin-left: auto !important;
         padding-inline: 10px;
         background: #1b262c;
+    }
+
+    .card-deck-mobile {
+        width: 20rem;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
