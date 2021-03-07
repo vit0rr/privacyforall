@@ -77,6 +77,11 @@ html {
 .paragrafo {
     margin-left: 20px;
 }
+
+#TelaToda{
+    height: 100% !important;
+}
+
 .card {
     border: none !important;
 }
